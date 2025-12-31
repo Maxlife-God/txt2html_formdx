@@ -51,7 +51,7 @@ def process_meaning(text):
     def example_repl(m):
         return (
             '<p class="example">'
-            f'<span class="example-sentence">{m.group(1)}</span>\t'
+            f'<span class="example-sentence">{m.group(1)}</span>&nbsp;&nbsp;&nbsp;&nbsp;'
             f'<span class="example-explain">{m.group(2)}</span>'
             '</p>'
         )
