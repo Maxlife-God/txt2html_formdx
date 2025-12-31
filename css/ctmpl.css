@@ -1,0 +1,66 @@
+/*预定义*/
+body {
+    font-size: 14px;
+    font-family: "FZYouSong GBK";
+    margin: 0px;
+    padding: 3px;
+}
+
+ul {
+    margin-right: 0px;
+    margin-left: 32px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none
+}
+
+/*----------词条------------*/
+/*词目*/
+div.entry-headword {
+    text-align: left;
+    font-weight: bold;
+    font-size: 140%;
+    color: #2F49A5;
+    margin: 4px;
+    padding: 0px;
+}
+
+/*正文*/
+div.entry-body span.pinyin_h {
+    color: gray;
+}
+
+p[data-orgtag="meaning"] b {
+    color: #229122 !important;
+}
+
+p.note {
+    color: deepskyblue;
+}
+
+p.example span.example-sentence {
+    color: royalblue;
+}
+
+p.example span.example-explain {
+    color: darkgray;
+}
+
+div.entry-headword,
+div.entry-body span.pinyin_h,
+p[data-orgtag="meaning"] b,
+p.note,
+p.example {
+    margin: 4px;
+}
+
+/*数据来源*/
+p.source {
+    text-align: right;
+    color: grey;
+    font-size: 90%;
+}
