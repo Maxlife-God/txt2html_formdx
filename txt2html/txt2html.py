@@ -141,7 +141,7 @@ def convert(lines):
 # ---------- 入口 ----------
 if __name__ == "__main__":
     if len(sys.argv) != 4:
-        print("用法: python txt2mdx_html.py input.txt index.txt syns.txt")
+        print("用法: python txt2html.py input.txt index.txt syns.txt")
         sys.exit(1)
 
     with open(sys.argv[1], encoding="utf-8") as f:
