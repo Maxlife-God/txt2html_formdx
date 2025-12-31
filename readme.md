@@ -6,7 +6,7 @@
 
 1. 使用 `css` 文件夹下的 `ctmpl.css` 替换 `AutoMdxBuilder\_internal\lib` 下的同名文件，注意备份源文件
 
-2. 创建一个名为 `input.txt` 文件，在其中编写词典内容。编写规则参考 `txt2html\readme.txt`
+2. 创建一个名为 `input.txt` 文件，在其中编写词典内容。编写规则参考 [txt2html\readme.md](https://github.com/Maxlife-God/txt2html_formdx/blob/main/txt2html/readme.md)
 
 3. 运行 `txt2html\txt2html.py`，生成 `index.txt` 和 `syns.txt`
 
