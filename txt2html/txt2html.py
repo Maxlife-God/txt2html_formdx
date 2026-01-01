@@ -63,7 +63,7 @@ def process_meaning(text):
     # 再处理加粗（保留 <br> 与自定义块）
     parts = re.split(
         r'(<br>|<p class="note">.*?</p>|<p class="example">.*?</p>|'
-        r'，|；|、|\.|（|）|\[|\]|\+|「|」)',
+        r'，|；|、|\.|（|）|\[|\]|\+|「|」|\/)',
         text
     )
 
@@ -73,7 +73,7 @@ def process_meaning(text):
             continue
         if p == "<br>" or p.startswith("<p "):
             out.append(p)
-        elif re.match(r"[，；、\.（）\[\]\+「」]", p):
+        elif re.match(r"[，；、\.（）\[\]\+「」\/]", p):
             out.append(p)
         else:
             out.append(f"<b>{p.strip()}</b>")
