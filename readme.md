@@ -1,8 +1,19 @@
+# txt2html
+
+txt2html 是一个 python 脚本，可将 txt 中的文本转换为能够被 mdict-utils 读取的 html 格式，用于制作日语 mdx 词典。
+
+## 前置环境：
+
+- Python 3.8+
+- 第三方库 `pykakasi`，安装命令 `pip install pykakasi`
+
+## 作者声明：
+
 - 本脚本搭配 [AutoMdxBuilder](https://github.com/Litles/AutoMdxBuilder) 使用，请先下载软件
 - 本脚本只对以上软件提供的模板 C 即文本词典进行了适配，其他模板并未进行测试
 - 本脚本只是作者为整理日语笔记制作的，因此大部分功能偏向日语词典，如有其他语言需求请自行修改
 
-简易教程：
+## 使用教程：
 
 1. 使用 `css` 文件夹下的 `ctmpl.css` 替换 `AutoMdxBuilder\_internal\lib` 下的同名文件，注意备份源文件
 
